@@ -1,0 +1,128 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: "Fira Sans", serif;
+
+}
+
+.header {
+    margin: 40px 160px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 20px 0px;
+}
+
+.bd-nav {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    /* padding: 31px 0px; */
+}
+
+.nav-sign {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+
+.banner-container {
+    display: flex;
+    text-align: start;
+    background-color: #C6E4D6;
+    border-radius: 8px;
+
+}
+
+.container {
+    padding: 117.5px 64px 117.5px 60px;
+}
+
+.container-sub {
+    font-size: 24px;
+    font-weight: 500;
+    color: #0e0e0e81;
+}
+
+.container-head {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+
+}
+
+.explore {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    margin-top: 24px;
+}
+
+.banner-img {
+    padding: 80px 60px 80px 64px;
+}
+
+.pillar-section {
+    margin: 15px 160px;
+}
+
+.pillar-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-bottom: 32px;
+}
+
+.pillar {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+
+.one {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: solid #0e0e0e17;
+    border-width: 1px;
+    padding: 24px;
+}
+
+.one h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0e0e0ede;
+}
+
+.two {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: solid #0e0e0e17;
+    border-width: 1px;
+    padding: 24px;
+}
+
+.three {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: solid #0e0e0e17;
+    border-width: 1px;
+    padding: 24px;
+}
+
+.four {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: solid #0e0e0e17;
+    border-width: 1px;
+    padding: 24px;
+}

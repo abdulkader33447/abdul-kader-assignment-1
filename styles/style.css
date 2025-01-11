@@ -294,6 +294,7 @@
     margin: 24px;
 
 }
+
 .news-photo {
     /* padding: 15px; */
     border-radius: 24px;
@@ -359,28 +360,22 @@
 
 .amount-one {
     padding: 40px;
-    border: solid #0e0e0e2a;
     border-radius: 16px;
-    border-width: 0.1px;
     background-color: #ffffffda;
 }
 
 .amount-two {
     color: #fff;
     padding: 40px;
-    border: solid #0e0e0e1a;
     border-radius: 16px;
-    border-width: 0.1px;
     background-color: #425743;
 }
 
 .amount-four {
-    color: #fff;
+    color: #0E0E0E;
     padding: 40px;
-    border: solid #0e0e0e1a;
     border-radius: 16px;
-    border-width: 0.1px;
-    background-color: #4b7477;
+    background-color: #fff;
 }
 
 .other-amount {
@@ -458,12 +453,31 @@
     height: 55px;
     border-radius: 0px 10px 10px 0px;
 }
-.promise{
+
+.subscribe-btn:hover {
+    background-color: #24a786;
+    color: #fff;
+}
+
+.promise {
     font-size: 16px;
     font-weight: 500;
     color: #0e0e0e9d;
     padding-top: 24px;
 }
+
+.footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0px;
+
+}
+
+.bangladesh {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 /* .input-container {
     border-radius: 8px;
 } */

@@ -9,7 +9,14 @@
 .header {
     margin: 40px 160px;
 }
+.btn-hover{
+    cursor: pointer;:
+    outline: none;
+    transform: translateY(4px);
+    opacity: 1;
 
+}
+.bottun:hover {background-color: #3e8e41;}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -86,7 +93,7 @@
 .pillar {
     display: flex;
     gap: 24px;
-    padding: 24px;
+    /* padding: 24px; */
 }
 
 .one {
@@ -139,6 +146,12 @@
 .vision-container{
     display: flex;
     gap: 24px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
 }
 .vision-section p{
     font-size: 16px;
@@ -149,14 +162,18 @@
 .vision-one{
     background-color: #548ff523;
     border-radius: 16px;
+    padding: 32px
 }
 .vision-two{
     background-color: #C6E4D6;
     border-radius: 16px;
+    padding: 32px
 }
 .vision-three{
     background-color: #F7EBCF;
     border-radius: 16px;
+    padding: 32px
+    
 }
 .vision-img{
     padding-bottom: 24px;
@@ -171,4 +188,65 @@
     font-size: 20px;
     font-weight: bold;
     color: #0e0e0ec0;
+    padding-bottom: 12px;
+}
+.btn-one{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #5490F5;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.btn-two{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #09A15C;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.btn-three{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FFC239;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+.quote-section{
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    border: solid #0e0e0e17;
+    border-width: 1px;
+    border-radius: 16px;
+
+}
+.quote-descript{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+
+.quote{
+    padding: 48px 24px;
+    
+}
+.adviser{
+    padding-bottom: 48px;
+}
+/* news section start */
+.news-section{
+
+}
+.recent-one{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.section-descript{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0e0e0ea1;
 }

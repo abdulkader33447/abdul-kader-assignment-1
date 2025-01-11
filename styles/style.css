@@ -1,3 +1,8 @@
+.body {
+    background-color: #F1F1F3;
+
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -10,6 +15,7 @@
     margin: 40px 160px;
 }
 
+/* 
 .btn-hover {
     cursor: pointer;
     :
@@ -17,7 +23,7 @@
     transform: translateY(4px);
     opacity: 1;
 
-}
+} */
 
 .bottun:hover {
     background-color: #3e8e41;
@@ -105,8 +111,6 @@
 .one {
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: solid #0e0e0e17;
-    border-width: 1px;
     padding: 24px;
 }
 
@@ -119,24 +123,18 @@
 .two {
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: solid #0e0e0e17;
-    border-width: 1px;
     padding: 24px;
 }
 
 .three {
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: solid #0e0e0e17;
-    border-width: 1px;
     padding: 24px;
 }
 
 .four {
     background-color: #FFFFFF;
     border-radius: 16px;
-    border: solid #0e0e0e17;
-    border-width: 1px;
     padding: 24px;
 }
 
@@ -289,19 +287,15 @@
 
 .news-one {
     display: flex;
-    margin-top: 32px;
+    gap: 32px;
+    padding: 48px;
     background-color: #FFFFFF;
-    border: solid #0e0e0e17;
-    border-width: 1px;
     border-radius: 16px;
+    margin: 24px;
 
 }
-
 .news-photo {
-    padding: 48px 32px 48px 48px;
-    /* overflow: hidden; */
-    border: solid #fff;
-    border-width: 1px;
+    /* padding: 15px; */
     border-radius: 24px;
 }
 
@@ -359,7 +353,7 @@
     padding-top: 40px;
     padding-bottom: 44px;
     gap: 80px;
-    align-content:center;
+    align-content: center;
 
 }
 
@@ -402,10 +396,12 @@
     height: 25px;
     align-items: center;
 }
-.other{
+
+.other {
     margin-top: 32px
 }
-.donate{
+
+.donate {
     font-size: 18px;
     font-weight: 600;
     background-color: #006A50;
@@ -413,6 +409,61 @@
     border-radius: 8px;
     color: #fff;
 }
-.donate-btn{
+
+.donate-btn {
     margin-top: 32px;
 }
+
+.subscribe-section {
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+
+}
+
+.subscribe {
+    text-align: center;
+    padding: 80px 265px;
+}
+
+.subscribe-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-bottom: 16px;
+}
+
+.subscribe-section p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0e0e0ea8;
+    padding-bottom: 24px;
+}
+
+/* .subscribtion-descript{
+    padding: 16px 64px 24px;
+} */
+.input-box {
+    width: 600px;
+    height: 55px;
+    padding-left: 40px;
+    border-radius: 10px 0 0 10px;
+}
+
+.subscribe-btn {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #006A50;
+    width: 150px;
+    height: 55px;
+    border-radius: 0px 10px 10px 0px;
+}
+.promise{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0e0e0e9d;
+    padding-top: 24px;
+}
+/* .input-container {
+    border-radius: 8px;
+} */

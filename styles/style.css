@@ -330,3 +330,89 @@
     font-weight: 500;
     color: #0e0e0ea1;
 }
+
+/* cta section start */
+.cta-section {
+    margin: 80px 160px;
+    text-align: center;
+}
+
+.cta-head {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-bottom: 24px;
+}
+
+.cta-descript {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0e0e0e9a;
+    padding: 0px 35px 28px;
+
+}
+
+.amount {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0ec9;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    gap: 80px;
+    align-content:center;
+
+}
+
+.amount-one {
+    padding: 40px;
+    border: solid #0e0e0e2a;
+    border-radius: 16px;
+    border-width: 0.1px;
+    background-color: #ffffffda;
+}
+
+.amount-two {
+    color: #fff;
+    padding: 40px;
+    border: solid #0e0e0e1a;
+    border-radius: 16px;
+    border-width: 0.1px;
+    background-color: #425743;
+}
+
+.amount-four {
+    color: #fff;
+    padding: 40px;
+    border: solid #0e0e0e1a;
+    border-radius: 16px;
+    border-width: 0.1px;
+    background-color: #4b7477;
+}
+
+.other-amount {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0e0e0e3f;
+    width: 61%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid #0e0e0e1a;
+    border-width: 0.01px;
+    text-align: center;
+    height: 25px;
+    align-items: center;
+}
+.other{
+    margin-top: 32px
+}
+.donate{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 8px;
+    color: #fff;
+}
+.donate-btn{
+    margin-top: 32px;
+}

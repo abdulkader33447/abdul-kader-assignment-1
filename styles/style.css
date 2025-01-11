@@ -25,9 +25,7 @@
 
 } */
 
-.bottun:hover {
-    background-color: #3e8e41;
-}
+
 
 .nav {
     display: flex;
@@ -50,7 +48,10 @@
     border: 1px solid #006A50;
     border-radius: 8px;
 }
-
+.nav-sign:hover{
+    background-color: #4b8a7a;
+    color: #fff;
+}
 .banner-container {
     display: flex;
     text-align: start;
@@ -85,6 +86,9 @@
     border-radius: 8px;
     padding: 17px 34px;
     margin-top: 24px;
+}
+.explore:hover{
+    background-color: #0e3d32;
 }
 
 .banner-img {
@@ -212,6 +216,10 @@
     border-radius: 8px;
     padding: 11px 20px;
 }
+.btn-one:hover{
+    background-color: #215ec7;
+    color: #fff;
+}
 
 .btn-two {
     font-size: 16px;
@@ -220,6 +228,10 @@
     background-color: #09A15C;
     border-radius: 8px;
     padding: 11px 20px;
+}
+.btn-two:hover{
+    background-color: #106840;
+    color: #fff;
 }
 
 .btn-three {
@@ -230,7 +242,9 @@
     border-radius: 8px;
     padding: 11px 20px;
 }
-
+.btn-three:hover{
+    background-color: #c08806;
+}
 .quote-section {
     margin-top: 32px;
     background-color: #FFFFFF;
@@ -265,6 +279,10 @@
     padding: 13px 26px;
     border-radius: 8px;
     margin-top: 32px;
+}
+.news-section-btn:hover{
+    background-color: #19a884;
+    color: #fff;
 }
 
 .news-section {
@@ -407,6 +425,10 @@
 
 .donate-btn {
     margin-top: 32px;
+}
+.donate:hover{
+    background-color: #19a884;
+    color: #fff;
 }
 
 .subscribe-section {

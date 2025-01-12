@@ -10,6 +10,12 @@
     font-family: "Fira Sans", serif;
 
 }
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
 
 .header {
     margin: 40px 160px;
@@ -114,6 +120,18 @@
     gap: 24px;
     /* padding: 24px; */
 }
+.box-heading{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    color: #0e0e0ece;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box-descript{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e0e0ea2;
+}
 
 .one {
     background-color: #FFFFFF;
@@ -121,11 +139,11 @@
     padding: 24px;
 }
 
-.one h5 {
-    font-size: 24px;
+/* .one h5 {
+    font-size: 20px;
     font-weight: bold;
     color: #0e0e0ede;
-}
+} */
 
 .two {
     background-color: #FFFFFF;
@@ -149,6 +167,9 @@
 .vision-section {
     margin: 80px 160px;
 }
+.vision-descript{
+    margin-bottom: 32px;
+}
 
 .vision-section h1 {
     font-size: 40px;
@@ -168,12 +189,11 @@
 
 }
 
-.vision-section p {
+/* .vision-section p {
     font-size: 16px;
-    font-weight: 500;
     color: #0e0e0ea8;
     padding-bottom: 32px;
-}
+} */
 
 .vision-one {
     background-color: #548ff523;
@@ -199,6 +219,7 @@
 
 .vision-descrpt {
     padding-top: 12px;
+    padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     color: #0e0e0e9d;
@@ -272,43 +293,57 @@
     padding: 48px 24px;
 
 }
+.yunus{
+    padding-top: 12px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
 
 .adviser {
     padding-bottom: 48px;
 }
 
 /* table section */
-.table-section {
+/* .table-section {
     margin: 80px 164px;
-    display: flex;
+    
 }
-
 .table-section h1 {
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
 }
 
-.table-section {
-    display: flex;
-
-
-}
-.tbody{
-    font-size: 16px;
-    font-weight: 600;
-    color: #0E0E0E;
-}
 .table-div {
     background-color: #fff;
     padding: 32px;
     
 }
-.table tr th td{
-    border: 1px solid #c9c9c9;
+.table{
+    border-collapse: collapse;
 }
 
+
+.tbody{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+   
+}
+.tbody td{
+    border: 1px solid #0E0E0E;
+    
+} */
+
+/* .table tr th td{
+    border: 1px solid #c9c9c9;
+} */
+
 .thead th {
+    text-align: justify;
+    padding: 24px;
     font-size: 20px;
     font-weight: 600;
     color: #0E0E0E;
@@ -348,14 +383,13 @@
 }
 
 .section-descript {
-    font-size: 16px;
-    font-weight: 500;
-    color: #0e0e0ea1;
+    margin-bottom: 32px;
 
 }
 
 .news-one {
     display: flex;
+    align-items: center;
     gap: 32px;
     padding: 48px;
     background-color: #FFFFFF;
@@ -373,7 +407,7 @@
     font-size: 32px;
     font-weight: bold;
     color: #0e0e0ece;
-    padding-top: 56px;
+
     padding-bottom: 12px;
 }
 
@@ -389,11 +423,11 @@
     padding-left: 12px;
 }
 
-.news-one-descript {
+/* .news-one-descript {
     font-size: 16px;
     font-weight: 500;
     color: #0e0e0ea1;
-}
+} */
 
 
 /* cta section start */
@@ -408,22 +442,28 @@
     color: #0E0E0E;
     padding-bottom: 24px;
 }
+.cta-descript{
+    /* margin-bottom: 32px; */
+}
 
-.cta-descript {
+/* .cta-descript {
     font-size: 16px;
     font-weight: 500;
     color: #0e0e0e9a;
     padding: 0px 35px 28px;
 
-}
+} */
 
 .amount {
+    display: flex;
     font-size: 40px;
     font-weight: bold;
     color: #0e0e0ec9;
-    padding-top: 40px;
+    /* padding-top: 20px; */
     padding-bottom: 44px;
-    gap: 80px;
+    justify-content: center;
+    gap: 32px;
+    margin: 32px;
     align-content: center;
 
 }
@@ -491,6 +531,7 @@
 }
 
 .subscribe {
+    align-items: center;
     text-align: center;
     padding: 80px 265px;
 }
@@ -502,12 +543,7 @@
     padding-bottom: 16px;
 }
 
-.subscribe-section p {
-    font-size: 16px;
-    font-weight: 500;
-    color: #0e0e0ea8;
-    padding-bottom: 24px;
-}
+
 
 /* .subscribtion-descript{
     padding: 16px 64px 24px;
@@ -539,12 +575,12 @@
     color: #fff;
 }
 
-.promise {
+/* .promise {
     font-size: 16px;
     font-weight: 500;
     color: #0e0e0e9d;
     padding-top: 24px;
-}
+} */
 
 .footer {
     text-align: center;

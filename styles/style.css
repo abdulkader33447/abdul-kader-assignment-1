@@ -10,7 +10,8 @@
     font-family: "Fira Sans", serif;
 
 }
-p{
+
+p {
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
@@ -63,14 +64,15 @@ p{
 .banner-container {
     display: flex;
     text-align: start;
+    align-items: center;
+    justify-content: center;
     background-color: #C6E4D6;
     border-radius: 8px;
-
+    padding:0px 59px;
+    margin-bottom: 80px;
 }
 
-.container {
-    padding: 117.5px 64px 117.5px 60px;
-}
+.container {}
 
 .container-sub {
     font-size: 24px;
@@ -120,14 +122,16 @@ p{
     gap: 24px;
     /* padding: 24px; */
 }
-.box-heading{
+
+.box-heading {
     padding-top: 24px;
     padding-bottom: 12px;
     color: #0e0e0ece;
     font-size: 20px;
     font-weight: bold;
 }
-.box-descript{
+
+.box-descript {
     font-size: 16px;
     font-weight: 400;
     color: #0e0e0ea2;
@@ -167,7 +171,8 @@ p{
 .vision-section {
     margin: 80px 160px;
 }
-.vision-descript{
+
+.vision-descript {
     margin-bottom: 32px;
 }
 
@@ -293,17 +298,22 @@ p{
     padding: 48px 24px;
 
 }
-.yunus{
-    padding-top: 12px;
-    padding-bottom: 4px;
+.dr{
+    margin: 24px 0px 4px 0px;
     font-size: 20px;
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
 }
 
-.adviser {
-    padding-bottom: 48px;
-}
+/* .yunus {
+    padding-top: 12px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+} */
+
+
 
 /* table section */
 /* .table-section {
@@ -434,6 +444,8 @@ p{
 .cta-section {
     margin: 80px 160px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-head {
@@ -442,8 +454,9 @@ p{
     color: #0E0E0E;
     padding-bottom: 24px;
 }
-.cta-descript{
-    /* margin-bottom: 32px; */
+
+.cta-descript {
+    width: 100%;
 }
 
 /* .cta-descript {
@@ -460,7 +473,7 @@ p{
     font-weight: bold;
     color: #0e0e0ec9;
     /* padding-top: 20px; */
-    padding-bottom: 44px;
+    /* padding-bottom: 44px; */
     justify-content: center;
     gap: 32px;
     margin: 32px;
@@ -527,7 +540,11 @@ p{
 .subscribe-section {
     margin: 80px 160px;
     background-color: #C6E4D6;
-
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 24px;
 }
 
 .subscribe {
@@ -551,6 +568,7 @@ p{
 .input-container {
     display: flex;
     align-items: center;
+    margin: 24px;
 }
 
 .input-box {

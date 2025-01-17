@@ -12,7 +12,7 @@
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
@@ -41,14 +41,14 @@ p {
 }
 
 .bd-nav {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     color: #0E0E0E;
     /* padding: 31px 0px; */
 }
 
 .nav-sign {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #006A50;
     padding: 15px 30px;
@@ -75,13 +75,13 @@ p {
 .container {}
 
 .container-sub {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #0e0e0e81;
 }
 
 .container-head {
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #0E0E0E;
     margin-top: 16px;
@@ -89,7 +89,7 @@ p {
 }
 
 .explore {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #FFFFFF;
     background-color: #006A50;
@@ -111,7 +111,7 @@ p {
 }
 
 .pillar-section h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #0E0E0E;
     padding-bottom: 32px;
@@ -127,12 +127,12 @@ p {
     padding-top: 24px;
     padding-bottom: 12px;
     color: #0e0e0ece;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 .box-descript {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #0e0e0ea2;
 }
@@ -177,7 +177,7 @@ p {
 }
 
 .vision-section h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #0E0E0E;
     padding-bottom: 24px;
@@ -225,20 +225,20 @@ p {
 .vision-descrpt {
     padding-top: 12px;
     padding-bottom: 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #0e0e0e9d;
 }
 
 .vision-title {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: #0e0e0ec0;
     padding-bottom: 12px;
 }
 
 .btn-one {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: #fff;
     background-color: #5490F5;
@@ -252,7 +252,7 @@ p {
 }
 
 .btn-two {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: #fff;
     background-color: #09A15C;
@@ -266,7 +266,7 @@ p {
 }
 
 .btn-three {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     color: #fff;
     background-color: #FFC239;
@@ -305,21 +305,14 @@ p {
 
 .dr {
     margin: 24px 0px 4px 0px;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
 }
 
-.table-container {
-    margin: 80px 160px;
-    width: 1280px;
-    height: 481px;
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
-}
 
-.table-containe h2 {
+
+/* .table-containe h2 {
     font-size: 400px;
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
@@ -361,10 +354,10 @@ thead th {
   }
   tbody tr{
     border: solid rgba(14, 14, 14, 0.15);
-  }
+  } */
 /* news section start */
 .news-section-btn {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #fff;
     background-color: #006A50;
@@ -388,7 +381,7 @@ thead th {
 }
 
 .recent-one {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #0E0E0E;
 
@@ -488,12 +481,16 @@ thead th {
     border-radius: 16px;
     background-color: #ffffffda;
 }
+.amount-one:hover{
+    background-color: #006A50;
+    color: #fff;
+}
 
 .amount-two {
     color: #fff;
     padding: 40px;
     border-radius: 16px;
-    background-color: #425743;
+    background-color: #006A50;
 }
 
 .amount-four {
@@ -502,7 +499,10 @@ thead th {
     border-radius: 16px;
     background-color: #fff;
 }
-
+.amount-four:hover{
+    background-color: #006A50;
+    color: #fff;
+}
 .other-amount {
     font-size: 20px;
     font-weight: 500;
@@ -614,6 +614,23 @@ thead th {
     padding-bottom: 32px;
 }
 
-/* .input-container {
-    border-radius: 8px;
-} */
+/* responsive */
+@media screen and (max-width:576px) {
+    .nav,
+    .pillar,
+    .news-one,
+    .banner-container,
+    .vision-container{
+        flex-direction: column;
+    }
+    .header{
+        margin: auto;
+    }
+    .nav-sign{
+        padding:7px 15px;
+        max-width: 100px;
+    }
+    .explore{
+        padding:9px 17px;
+    }
+}

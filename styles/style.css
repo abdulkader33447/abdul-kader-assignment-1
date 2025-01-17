@@ -68,7 +68,7 @@ p {
     justify-content: center;
     background-color: #C6E4D6;
     border-radius: 8px;
-    padding:0px 59px;
+    padding: 0px 59px;
     margin-bottom: 80px;
 }
 
@@ -287,8 +287,12 @@ p {
 
 }
 
+.quote-img{
+    margin-bottom: -50px;
+}
+
 .quote-descript {
-    background-image: url("../assets/quote-bg.png");
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-position: top left;
 
@@ -298,68 +302,66 @@ p {
     padding: 48px 24px;
 
 }
-.dr{
+
+.dr {
     margin: 24px 0px 4px 0px;
     font-size: 20px;
     font-weight: 600;
     color: rgba(14, 14, 14, 0.8);
 }
 
-/* .yunus {
-    padding-top: 12px;
-    padding-bottom: 4px;
-    font-size: 20px;
-    font-weight: 600;
-    color: rgba(14, 14, 14, 0.8);
-} */
-
-
-
-/* table section */
-/* .table-section {
-    margin: 80px 164px;
-    
+.table-container {
+    margin: 80px 160px;
+    width: 1280px;
+    height: 481px;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
-.table-section h1 {
-    font-size: 40px;
+
+.table-containe h2 {
+    font-size: 400px;
     font-weight: bold;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 1);
+    padding-bottom: 24px;
 }
 
-.table-div {
+table {
+    width: 1585px;
+    align-items: center;
+    padding: 28px;
     background-color: #fff;
-    padding: 32px;
-    
+    border-radius: 16px;
 }
-.table{
-    border-collapse: collapse;
-}
-
-
-.tbody{
+thead th {
+    background-color: #d1e7dd;
+    color: #000000;
+    text-align: left;
+    padding: 16px;
+    font-size: 20px;
+    font: 600;
+  }
+  .option{
+    text-align:right;
+  }
+  tbody td{
     font-size: 16px;
     font-weight: 600;
-    color: #0E0E0E;
-   
-}
-.tbody td{
-    border: 1px solid #0E0E0E;
-    
-} */
-
-/* .table tr th td{
-    border: 1px solid #c9c9c9;
-} */
-
-.thead th {
-    text-align: justify;
-    padding: 24px;
-    font-size: 20px;
+    padding: 16px;
+  }
+  .yes{
+    margin-left: 15px;
+  }
+  tbody select{
+    font-size: 16px;
     font-weight: 600;
-    color: #0E0E0E;
-    background-color: #C6E4D6;
-}
-
+    padding: 16px;
+    text-align: center;
+    align-items: center;
+  }
+  tbody tr{
+    border: solid rgba(14, 14, 14, 0.15);
+  }
 /* news section start */
 .news-section-btn {
     font-size: 18px;

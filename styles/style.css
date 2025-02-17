@@ -427,6 +427,10 @@ thead th {
 .time {
     padding-left: 12px;
 }
+.middle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 /* .news-one-descript {
     font-size: 16px;
